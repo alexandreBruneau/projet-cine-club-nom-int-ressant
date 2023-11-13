@@ -41,11 +41,6 @@ img {
     background: linear-gradient(45deg, #F4C66C, #f2a45e, #ed8052, #e55945)
 }
 
-#abc {
-    text-align: center;
-    animation: heartbeat .5s infinite;
-}
-
 #forma {
     display: block;
     margin-left: auto;
@@ -113,4 +108,27 @@ label {
     background-position: center;
     width: 150px;
     height: 80px;
+}
+
+/* test */
+
+.speech-bubble {
+    position: relative;
+    background: #00aabb;
+    border-radius: .4em;
+}
+
+.speech-bubble:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: #00aabb;
+    border-bottom: 0;
+    border-left: 0;
+    margin-left: -10px;
+    margin-bottom: -20px;
 }
