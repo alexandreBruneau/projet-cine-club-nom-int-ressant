@@ -13,6 +13,7 @@ body {
     border-radius: 5px;
     float: left;
     padding: 2%;
+    background: url("img/backgroundCard.webp");
 }
 
 .card:hover {
