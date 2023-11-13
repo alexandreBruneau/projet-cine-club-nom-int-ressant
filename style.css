@@ -1,0 +1,94 @@
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+}
+
+
+
+
+#pageForm {
+    background: linear-gradient(45deg, #F4C66C, #f2a45e, #ed8052, #e55945)
+}
+
+#abc {
+    text-align: center;
+    animation: heartbeat .5s infinite;
+}
+
+#forma {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Trebuchet MS";
+}
+
+
+
+
+label,
+input {
+    display: block;
+}
+
+label {
+    margin: 20px 0 10px;
+}
+
+#confirmReserv {
+    background: greenyellow;
+    color: red;
+    text-align: center;
+    font-size: x-large;
+    padding: 10px;
+    border: 4mm ridge rgba(211, 220, 50, .6);
+    box-shadow: 5px 5px 5px black;
+}
+
+#confirmReserv:hover {
+    background-color: rgb(255, 225, 0);
+}
+
+#confirmReserv:active {
+    box-shadow:
+        inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+        inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+#boutonsPaiement {
+    display: flex;
+    column-gap: 20px;
+
+}
+
+#boutonPayPal {
+    background-image: url("img/PayPal.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 150px;
+    height: 80px;
+}
+
+#boutonVisa {
+    background-image: url("img/Visa.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 150px;
+    height: 80px;
+}
+
+#boutonMasterCard {
+    background-image: url("img/Mastercard.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 150px;
+    height: 80px;
+}
